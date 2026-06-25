@@ -133,7 +133,7 @@ git clone https://github.com/JorgeeRodrigues/Programacao-Avancada.git
 ### 2. Criar banco PostgreSQL
 
 ```sql
-CREATE DATABASE petshop;
+CREATE DATABASE PETSHOP;
 ```
 
 ### 3. Configurar conexão
@@ -157,7 +157,7 @@ senha
 Abrir no NetBeans e executar:
 
 ```java
-ExemploTelas.java
+TelaLogin.java
 ```
 
 ---
