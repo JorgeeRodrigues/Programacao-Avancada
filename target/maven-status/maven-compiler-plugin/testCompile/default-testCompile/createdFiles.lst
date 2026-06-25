@@ -1,0 +1,10 @@
+models\DAO\PetDAOTest.class
+models\PetTest.class
+models\AgendamentoTest.class
+models\DAO\AgendamentoDAOTest.class
+models\FuncionarioTest.class
+models\ServicoTest.class
+models\DAO\ClienteDAOTest.class
+models\DAO\FuncionarioDAOTest.class
+models\DAO\ServicoDAOTest.class
+models\ClienteTest.class

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="txtCpfCliente" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="btnExcluirCliente" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                          <Component id="btnEditarCliente" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="101" max="32767" attributes="0"/>
+                          <Component id="btnSalvarCliente" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="txtTelefoneCliente" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLNomeCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtNomeCliente" alignment="0" min="-2" pref="380" max="-2" attributes="0"/>
+                          <Component id="jLEmailCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtEmailCliente" alignment="0" min="-2" pref="380" max="-2" attributes="0"/>
+                          <Component id="jLCpfCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLTelefoneCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" alignment="1" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
+                  <Component id="txtCpfCliente" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="txtTelefoneCliente" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="193" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnExcluirCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnSalvarCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnEditarCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLNomeCliente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtNomeCliente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLEmailCliente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtEmailCliente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLCpfCliente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="jLTelefoneCliente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLNomeCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nome"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblCliente">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Nome" type="java.lang.Object"/>
+                    <Column editable="true" title="E-mail" type="java.lang.Object"/>
+                    <Column editable="true" title="CPF" type="java.lang.Object"/>
+                    <Column editable="true" title="Telefone" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="txtNomeCliente">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLEmailCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E-mail"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEmailCliente">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCpfCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CPF"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLTelefoneCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Telefone"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnEditarCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Editar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditarClienteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnExcluirCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Excluir"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExcluirClienteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSalvarCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Salvar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalvarClienteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="txtCpfCliente">
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="txtTelefoneCliente">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

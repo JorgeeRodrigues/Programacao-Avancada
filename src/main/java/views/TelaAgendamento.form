@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLDataHoraAgendamento" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane1" alignment="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtDataHoraAgendamento" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="btnExcluirAgendamento" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="78" max="32767" attributes="0"/>
+                                  <Component id="btnEditarAgendamento" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                  <Component id="btnSalvarAgendamento" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLClienteAgendamento" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLPetAgendamento" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLServicoAgendamento" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtClienteAgendamento" alignment="0" min="-2" pref="374" max="-2" attributes="0"/>
+                                  <Component id="txtPetAgendamento" alignment="0" min="-2" pref="374" max="-2" attributes="0"/>
+                                  <Component id="txtServicoAgendamento" alignment="0" min="-2" pref="374" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="7" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
+                  <Component id="jLDataHoraAgendamento" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txtDataHoraAgendamento" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="159" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnExcluirAgendamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnEditarAgendamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnSalvarAgendamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLClienteAgendamento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtClienteAgendamento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLPetAgendamento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtPetAgendamento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLServicoAgendamento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtServicoAgendamento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="265" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="txtPetAgendamento">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPetAgendamentoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtServicoAgendamento">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtServicoAgendamentoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLDataHoraAgendamento">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Data e Hora:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLServicoAgendamento">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Servi&#xe7;o:"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblAgendamento">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Cliente" type="java.lang.Object"/>
+                    <Column editable="true" title="Pet" type="java.lang.Object"/>
+                    <Column editable="true" title="Servi&#xe7;o" type="java.lang.Object"/>
+                    <Column editable="true" title="Data e Hora" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLClienteAgendamento">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cliente:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtClienteAgendamento">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtClienteAgendamentoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLPetAgendamento">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pet:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnExcluirAgendamento">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Excluir"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExcluirAgendamentoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnEditarAgendamento">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Editar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditarAgendamentoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSalvarAgendamento">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Salvar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalvarAgendamentoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="txtDataHoraAgendamento">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
